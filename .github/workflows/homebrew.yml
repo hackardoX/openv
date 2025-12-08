@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
       - name: Release project to Homebrew tap
-        uses: Justintime50/homebrew-releaser@v2
+        uses: Justintime50/homebrew-releaser@v3
         with:
           homebrew_owner: andrea11
           homebrew_tap: homebrew-formulas
