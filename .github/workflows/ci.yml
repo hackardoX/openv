@@ -137,7 +137,7 @@ jobs:
       - name: Display downloaded files
         run: ls -R ./artifacts
       - name: Create release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           name: Release ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
